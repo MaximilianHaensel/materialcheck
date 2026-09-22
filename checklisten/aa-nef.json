@@ -1,0 +1,2291 @@
+{
+  "version": 9,
+  "id": "aa-nef",
+  "name": "AA-NEF",
+  "containers": [
+    {
+      "id": "aa-nef",
+      "name": "AA-NEF",
+      "type": "vehicle",
+      "parent": null
+    },
+    {
+      "id": "rucksack",
+      "name": "Notfallrucksack groß",
+      "type": "object",
+      "parent": "aa-nef",
+      "selectable": true,
+      "description": "Fächer, Modultaschen und Material"
+    },
+    {
+      "id": "modultaschen",
+      "name": "Modultaschen",
+      "type": "section",
+      "parent": "rucksack"
+    },
+    {
+      "id": "mpg",
+      "name": "MPG/Sonstiges",
+      "type": "container",
+      "parent": "aa-nef",
+      "selectable": true,
+      "description": "Medizinprodukte und sonstige Ausstattung"
+    }
+  ],
+  "groups": [
+    {
+      "id": "g0",
+      "name": "Oberes kleines Seitenfach",
+      "page": 1,
+      "color": "#557488",
+      "parent": "rucksack",
+      "items": [
+        {
+          "id": "g0i0",
+          "name": "Mullkompressen",
+          "qty": 10,
+          "source": "10 Mullkompressen",
+          "note": "",
+          "parent": "g0",
+          "type": "material"
+        },
+        {
+          "id": "g0i1",
+          "name": "Pg. Wundschnellverband",
+          "qty": 1,
+          "source": "1 Pg. Wundschnellverband",
+          "note": "",
+          "parent": "g0",
+          "type": "material"
+        },
+        {
+          "id": "g0i2",
+          "name": "Rettungsdecke",
+          "qty": 1,
+          "source": "1 Rettungsdecke",
+          "note": "",
+          "parent": "g0",
+          "type": "material"
+        },
+        {
+          "id": "g0i3",
+          "name": "Dreiecktuch",
+          "qty": 1,
+          "source": "1 Dreiecktuch",
+          "note": "",
+          "parent": "g0",
+          "type": "material"
+        }
+      ],
+      "type": "section",
+      "sourceLabel": "Notfallrucksack groß · V1.1 · 25.09.2023 · Seite 1"
+    },
+    {
+      "id": "g1",
+      "name": "Unteres kleines Seitenfach",
+      "page": 1,
+      "color": "#557488",
+      "parent": "rucksack",
+      "items": [
+        {
+          "id": "g1i0",
+          "name": "Leukosilk 2,5 cm",
+          "qty": 1,
+          "source": "1 Leukosilk 2,5 cm",
+          "note": "",
+          "parent": "g1",
+          "type": "material"
+        },
+        {
+          "id": "g1i1",
+          "name": "Verbandpäckchen mittel",
+          "qty": 4,
+          "source": "4 Verbandpäckchen mittel",
+          "note": "",
+          "parent": "g1",
+          "type": "material"
+        },
+        {
+          "id": "g1i2",
+          "name": "Mullbinden",
+          "qty": 4,
+          "source": "4 Mullbinden",
+          "note": "",
+          "parent": "g1",
+          "type": "material"
+        }
+      ],
+      "type": "section",
+      "sourceLabel": "Notfallrucksack groß · V1.1 · 25.09.2023 · Seite 1"
+    },
+    {
+      "id": "g2",
+      "name": "Großes Seitenfach",
+      "page": 1,
+      "color": "#557488",
+      "parent": "rucksack",
+      "items": [
+        {
+          "id": "g2i0",
+          "name": "RR-Gerät Erw. + Kind",
+          "qty": 1,
+          "source": "1 RR-Gerät Erw. + Kind",
+          "note": "",
+          "parent": "g2",
+          "type": "material"
+        },
+        {
+          "id": "g2i1",
+          "name": "Stethoskop",
+          "qty": 1,
+          "source": "1 Stethoskop",
+          "note": "",
+          "parent": "g2",
+          "type": "material"
+        },
+        {
+          "id": "g2i2",
+          "name": "BZ-Messgerät",
+          "qty": 1,
+          "source": "1 BZ-Messgerät",
+          "note": "",
+          "parent": "g2",
+          "type": "material"
+        },
+        {
+          "id": "g2i3",
+          "name": "Lanzetten",
+          "qty": 10,
+          "source": "10 Lanzetten",
+          "note": "",
+          "parent": "g2",
+          "type": "material"
+        },
+        {
+          "id": "g2i4",
+          "name": "Messstreifen",
+          "qty": 10,
+          "source": "10 Messstreifen",
+          "note": "",
+          "parent": "g2",
+          "type": "material"
+        },
+        {
+          "id": "g2i5",
+          "name": "Kleiderschere",
+          "qty": 1,
+          "source": "1 Kleiderschere",
+          "note": "",
+          "parent": "g2",
+          "type": "material"
+        },
+        {
+          "id": "g2i6",
+          "name": "SicSac-Beutel",
+          "qty": 2,
+          "source": "2 SicSac-Beutel",
+          "note": "",
+          "parent": "g2",
+          "type": "material"
+        },
+        {
+          "id": "g2i7",
+          "name": "Pulsoxi klein",
+          "qty": 1,
+          "source": "1 Pulsoxi klein",
+          "note": "",
+          "parent": "g2",
+          "type": "material"
+        }
+      ],
+      "type": "section",
+      "sourceLabel": "Notfallrucksack groß · V1.1 · 25.09.2023 · Seite 1"
+    },
+    {
+      "id": "g3",
+      "name": "Ampullariumsfach",
+      "page": 2,
+      "color": "#557488",
+      "parent": "rucksack",
+      "items": [
+        {
+          "id": "g3i0",
+          "name": "Stirnthermometer",
+          "qty": 1,
+          "source": "1 Stirnthermometer",
+          "note": "",
+          "parent": "g3",
+          "type": "material"
+        },
+        {
+          "id": "g3i1",
+          "name": "Ampullarium gemäß Liste",
+          "qty": 1,
+          "source": "1 Ampullarium gemäß Liste",
+          "note": "",
+          "parent": "g3",
+          "type": "material"
+        },
+        {
+          "id": "g3i2",
+          "name": "Spritze 20 ml",
+          "qty": 1,
+          "source": "1 Spritze 20 ml",
+          "note": "",
+          "parent": "g3",
+          "type": "material"
+        },
+        {
+          "id": "g3i3",
+          "name": "Spritzen 10 ml",
+          "qty": 2,
+          "source": "2 Spritzen 10 ml",
+          "note": "",
+          "parent": "g3",
+          "type": "material"
+        },
+        {
+          "id": "g3i4",
+          "name": "Spritzen 5 ml",
+          "qty": 2,
+          "source": "2 Spritzen 5 ml",
+          "note": "",
+          "parent": "g3",
+          "type": "material"
+        },
+        {
+          "id": "g3i5",
+          "name": "Spritzen 2 ml",
+          "qty": 2,
+          "source": "2 Spritzen 2 ml",
+          "note": "",
+          "parent": "g3",
+          "type": "material"
+        },
+        {
+          "id": "g3i6",
+          "name": "Spritzen 1ml",
+          "qty": 2,
+          "source": "2 Spritzen 1ml",
+          "note": "",
+          "parent": "g3",
+          "type": "material"
+        },
+        {
+          "id": "g3i7",
+          "name": "Aufziehkanülen",
+          "qty": 5,
+          "source": "5 Aufziehkanülen",
+          "note": "",
+          "parent": "g3",
+          "type": "material"
+        },
+        {
+          "id": "g3i8",
+          "name": "i.m. Kanüle 22G",
+          "qty": 1,
+          "source": "1 i.m. Kanüle 22G",
+          "note": "",
+          "parent": "g3",
+          "type": "material"
+        }
+      ],
+      "type": "section",
+      "sourceLabel": "Notfallrucksack groß · V1.1 · 25.09.2023 · Seite 2"
+    },
+    {
+      "id": "g4",
+      "name": "Infusionsfach",
+      "page": 2,
+      "color": "#557488",
+      "parent": "rucksack",
+      "items": [
+        {
+          "id": "g4i0",
+          "name": "Ringer-Lösung - 500 ml",
+          "qty": 1,
+          "source": "1 Ringer-Lösung - 500 ml",
+          "note": "",
+          "parent": "g4",
+          "type": "material"
+        },
+        {
+          "id": "g4i1",
+          "name": "Glucose Ampulle 40%",
+          "qty": 4,
+          "source": "4 Glucose Ampulle 40%",
+          "note": "",
+          "parent": "g4",
+          "type": "material"
+        },
+        {
+          "id": "g4i2",
+          "name": "NaCl-Lösung - 100 ml",
+          "qty": 2,
+          "source": "2 NaCl-Lösung - 100 ml",
+          "note": "",
+          "parent": "g4",
+          "type": "material"
+        },
+        {
+          "id": "g4i3",
+          "name": "Infusionssysteme",
+          "qty": 3,
+          "source": "3 Infusionssysteme",
+          "note": "",
+          "parent": "g4",
+          "type": "material"
+        },
+        {
+          "id": "g4i4",
+          "name": "Leukosilk 2,5 cm",
+          "qty": 1,
+          "source": "1 Leukosilk 2,5 cm",
+          "note": "",
+          "parent": "g4",
+          "type": "material"
+        },
+        {
+          "id": "g4i5",
+          "name": "Stauband",
+          "qty": 1,
+          "source": "1 Stauband",
+          "note": "",
+          "parent": "g4",
+          "type": "material"
+        },
+        {
+          "id": "g4i6",
+          "name": "Abwurfbehälter klein",
+          "qty": 1,
+          "source": "1 Abwurfbehälter klein",
+          "note": "",
+          "parent": "g4",
+          "type": "material"
+        },
+        {
+          "id": "g4i7",
+          "name": "Mullkompressen 7,5 cm",
+          "qty": 5,
+          "source": "5 Mullkompressen 7,5 cm",
+          "note": "",
+          "parent": "g4",
+          "type": "material"
+        },
+        {
+          "id": "g4i8",
+          "name": "Cutasept 50 ml",
+          "qty": 1,
+          "source": "1 Cutasept 50 ml",
+          "note": "",
+          "parent": "g4",
+          "type": "material"
+        },
+        {
+          "id": "g4i9",
+          "name": "Viggo-Pflaster",
+          "qty": 5,
+          "source": "5 Viggo-Pflaster",
+          "note": "",
+          "parent": "g4",
+          "type": "material"
+        },
+        {
+          "id": "g4i10",
+          "name": "Viggo blau",
+          "qty": 2,
+          "source": "je 2 Viggo blau, rosa, grün, grau",
+          "note": "",
+          "parent": "g4",
+          "type": "material"
+        },
+        {
+          "id": "g4i11",
+          "name": "Viggo rosa",
+          "qty": 2,
+          "source": "je 2 Viggo blau, rosa, grün, grau",
+          "note": "",
+          "parent": "g4",
+          "type": "material"
+        },
+        {
+          "id": "g4i12",
+          "name": "Viggo grün",
+          "qty": 2,
+          "source": "je 2 Viggo blau, rosa, grün, grau",
+          "note": "",
+          "parent": "g4",
+          "type": "material"
+        },
+        {
+          "id": "g4i13",
+          "name": "Viggo grau",
+          "qty": 2,
+          "source": "je 2 Viggo blau, rosa, grün, grau",
+          "note": "",
+          "parent": "g4",
+          "type": "material"
+        }
+      ],
+      "type": "section",
+      "sourceLabel": "Notfallrucksack groß · V1.1 · 25.09.2023 · Seite 2"
+    },
+    {
+      "id": "g5",
+      "name": "Deckelinnenseite",
+      "page": 2,
+      "color": "#557488",
+      "parent": "rucksack",
+      "items": [
+        {
+          "id": "g5i0",
+          "name": "Kleiderschere",
+          "qty": 1,
+          "source": "1 Kleiderschere",
+          "note": "",
+          "parent": "g5",
+          "type": "material"
+        },
+        {
+          "id": "g5i1",
+          "name": "Sterile Schere",
+          "qty": 1,
+          "source": "1 Sterile Schere",
+          "note": "",
+          "parent": "g5",
+          "type": "material"
+        },
+        {
+          "id": "g5i2",
+          "name": "Sterile Pinzette",
+          "qty": 1,
+          "source": "1 Sterile Pinzette",
+          "note": "",
+          "parent": "g5",
+          "type": "material"
+        },
+        {
+          "id": "g5i3",
+          "name": "Pupillenleuchte",
+          "qty": 1,
+          "source": "1 Pupillenleuchte",
+          "note": "",
+          "parent": "g5",
+          "type": "material"
+        },
+        {
+          "id": "g5i4",
+          "name": "Verschlusskappen blau",
+          "qty": 5,
+          "source": "5 Verschlusskappen blau",
+          "note": "",
+          "parent": "g5",
+          "type": "material"
+        },
+        {
+          "id": "g5i5",
+          "name": "stumpfe Aufziehkanülen",
+          "qty": 10,
+          "source": "10 stumpfe Aufziehkanülen",
+          "note": "",
+          "parent": "g5",
+          "type": "material"
+        },
+        {
+          "id": "g5i6",
+          "name": "Kanülen Gr. 22G",
+          "qty": 3,
+          "source": "3 Kanülen Gr. 22G",
+          "note": "",
+          "parent": "g5",
+          "type": "material"
+        },
+        {
+          "id": "g5i7",
+          "name": "Kanülen Gr. 20G",
+          "qty": 3,
+          "source": "3 Kanülen Gr. 20G",
+          "note": "",
+          "parent": "g5",
+          "type": "material"
+        },
+        {
+          "id": "g5i8",
+          "name": "Strausskanülen",
+          "qty": 1,
+          "source": "1 Strausskanülen",
+          "note": "",
+          "parent": "g5",
+          "type": "material"
+        },
+        {
+          "id": "g5i9",
+          "name": "Spritze 3 ml Luer-Lok + MAD",
+          "qty": 1,
+          "source": "1 Spritze 3 ml Luer-Lok + MAD",
+          "note": "",
+          "parent": "g5",
+          "type": "material"
+        },
+        {
+          "id": "g5i10",
+          "name": "Drei-Wege-Hahn",
+          "qty": 1,
+          "source": "1 Drei-Wege-Hahn",
+          "note": "",
+          "parent": "g5",
+          "type": "material"
+        },
+        {
+          "id": "g5i11",
+          "name": "Spritzen 20 ml",
+          "qty": 2,
+          "source": "je 2 Spritzen 20 / 10 / 5 / 2 / 1 ml",
+          "note": "",
+          "parent": "g5",
+          "type": "material"
+        },
+        {
+          "id": "g5i12",
+          "name": "Spritzen 10 ml",
+          "qty": 2,
+          "source": "je 2 Spritzen 20 / 10 / 5 / 2 / 1 ml",
+          "note": "",
+          "parent": "g5",
+          "type": "material"
+        },
+        {
+          "id": "g5i13",
+          "name": "Spritzen 5 ml",
+          "qty": 2,
+          "source": "je 2 Spritzen 20 / 10 / 5 / 2 / 1 ml",
+          "note": "",
+          "parent": "g5",
+          "type": "material"
+        },
+        {
+          "id": "g5i14",
+          "name": "Spritzen 2 ml",
+          "qty": 2,
+          "source": "je 2 Spritzen 20 / 10 / 5 / 2 / 1 ml",
+          "note": "",
+          "parent": "g5",
+          "type": "material"
+        },
+        {
+          "id": "g5i15",
+          "name": "Spritzen 1 ml",
+          "qty": 2,
+          "source": "je 2 Spritzen 20 / 10 / 5 / 2 / 1 ml",
+          "note": "",
+          "parent": "g5",
+          "type": "material"
+        },
+        {
+          "id": "g5i16",
+          "name": "Nitro-Spray",
+          "qty": 1,
+          "source": "1 Nitro-Spray",
+          "note": "",
+          "parent": "g5",
+          "type": "material"
+        }
+      ],
+      "type": "section",
+      "sourceLabel": "Notfallrucksack groß · V1.1 · 25.09.2023 · Seite 2"
+    },
+    {
+      "id": "g6",
+      "name": "Hauptfach",
+      "page": 3,
+      "color": "#557488",
+      "parent": "rucksack",
+      "items": [
+        {
+          "id": "g6i0",
+          "name": "Stifneck Erw. + Kind",
+          "qty": 1,
+          "source": "1 Stifneck Erw. + Kind",
+          "note": "",
+          "parent": "g6",
+          "type": "material"
+        },
+        {
+          "id": "g6i1",
+          "name": "Hyperventilationsmaske",
+          "qty": 1,
+          "source": "1 Hyperventilationsmaske",
+          "note": "",
+          "parent": "g6",
+          "type": "material"
+        },
+        {
+          "id": "g6i2",
+          "name": "Universalschiene",
+          "qty": 1,
+          "source": "1 Universalschiene",
+          "note": "",
+          "parent": "g6",
+          "type": "material"
+        },
+        {
+          "id": "g6i3",
+          "name": "Handdesi 150ml",
+          "qty": 1,
+          "source": "Handdesi 150ml",
+          "note": "Soll 1 durch Nutzer festgelegt.",
+          "decision": "Soll 1 durch Nutzer festgelegt",
+          "parent": "g6",
+          "type": "material"
+        },
+        {
+          "id": "g6i4",
+          "name": "Israeli Bandage",
+          "qty": 1,
+          "source": "1 Israeli Bandage",
+          "note": "",
+          "parent": "g6",
+          "type": "material"
+        },
+        {
+          "id": "g6i5",
+          "name": "Tourniquet",
+          "qty": 1,
+          "source": "1 Tourniquet",
+          "note": "",
+          "parent": "g6",
+          "type": "material"
+        },
+        {
+          "id": "g6i6",
+          "name": "Rettungsdecke",
+          "qty": 1,
+          "source": "1 Rettungsdecke",
+          "note": "",
+          "parent": "g6",
+          "type": "material"
+        }
+      ],
+      "type": "section",
+      "sourceLabel": "Notfallrucksack groß · V1.1 · 25.09.2023 · Seite 3"
+    },
+    {
+      "id": "g7",
+      "name": "Seitentaschen",
+      "page": 3,
+      "color": "#557488",
+      "parent": "g6",
+      "items": [
+        {
+          "id": "g7i0",
+          "name": "Handschuhe Gr. L,M,S",
+          "qty": 6,
+          "source": "6 Handschuhe Gr. L,M,S",
+          "note": "Sammelposition im Original: „6 Handschuhe Gr. L,M,S“. Verteilung auf Größen nicht angegeben; keine Aufteilung vorgenommen.",
+          "parent": "g7",
+          "type": "material"
+        },
+        {
+          "id": "g7i1",
+          "name": "Müllbeutel",
+          "qty": 2,
+          "source": "2 Müllbeutel",
+          "note": "",
+          "parent": "g7",
+          "type": "material"
+        },
+        {
+          "id": "g7i2",
+          "name": "FFP2",
+          "qty": 2,
+          "source": "2 x FFP2",
+          "note": "",
+          "parent": "g7",
+          "type": "material"
+        }
+      ],
+      "type": "section",
+      "sourceLabel": "Notfallrucksack groß · V1.1 · 25.09.2023 · Seite 3"
+    },
+    {
+      "id": "g8",
+      "name": "Infusion / REA",
+      "page": 3,
+      "color": "#b84449",
+      "parent": "modultaschen",
+      "items": [
+        {
+          "id": "g8i0",
+          "name": "Ringer-Lösung - 500 ml",
+          "qty": 1,
+          "source": "1 Ringer-Lösung - 500 ml",
+          "note": "",
+          "parent": "g8",
+          "type": "material"
+        },
+        {
+          "id": "g8i1",
+          "name": "Cutasept 50 ml",
+          "qty": 1,
+          "source": "1 Cutasept 50 ml",
+          "note": "",
+          "parent": "g8",
+          "type": "material"
+        },
+        {
+          "id": "g8i2",
+          "name": "NaCl 0,9 % 10 ml",
+          "qty": 2,
+          "source": "2 NaCl 0,9 % 10 ml",
+          "note": "",
+          "parent": "g8",
+          "type": "material"
+        },
+        {
+          "id": "g8i3",
+          "name": "Infusionssystem",
+          "qty": 1,
+          "source": "1 Infusionssystem",
+          "note": "",
+          "parent": "g8",
+          "type": "material"
+        },
+        {
+          "id": "g8i4",
+          "name": "Mullkompressen 7,5 cm",
+          "qty": 2,
+          "source": "2 Mullkompressen 7,5 cm",
+          "note": "",
+          "parent": "g8",
+          "type": "material"
+        },
+        {
+          "id": "g8i5",
+          "name": "Mullbinde 6 cm",
+          "qty": 1,
+          "source": "1 Mullbinde 6 cm",
+          "note": "",
+          "parent": "g8",
+          "type": "material"
+        },
+        {
+          "id": "g8i6",
+          "name": "Leukoplast 2,5 cm",
+          "qty": 1,
+          "source": "1 Leukoplast 2,5 cm",
+          "note": "",
+          "parent": "g8",
+          "type": "material"
+        },
+        {
+          "id": "g8i7",
+          "name": "Spritzen 5 ml",
+          "qty": 2,
+          "source": "je 2 Spritzen 5 ml + 10 ml",
+          "note": "",
+          "parent": "g8",
+          "type": "material"
+        },
+        {
+          "id": "g8i8",
+          "name": "Spritzen 10 ml",
+          "qty": 2,
+          "source": "je 2 Spritzen 5 ml + 10 ml",
+          "note": "",
+          "parent": "g8",
+          "type": "material"
+        },
+        {
+          "id": "g8i9",
+          "name": "Infusionspflaster",
+          "qty": 2,
+          "source": "2 Infusionspflaster",
+          "note": "",
+          "parent": "g8",
+          "type": "material"
+        },
+        {
+          "id": "g8i10",
+          "name": "Braunüle Vasofix Safety gelb",
+          "qty": 2,
+          "source": "je 2 Braunüle Vasofix Safety gelb /blau /rosa /grün /grau",
+          "note": "",
+          "parent": "g8",
+          "type": "material"
+        },
+        {
+          "id": "g8i11",
+          "name": "Braunüle Vasofix Safety blau",
+          "qty": 2,
+          "source": "je 2 Braunüle Vasofix Safety gelb /blau /rosa /grün /grau",
+          "note": "",
+          "parent": "g8",
+          "type": "material"
+        },
+        {
+          "id": "g8i12",
+          "name": "Braunüle Vasofix Safety rosa",
+          "qty": 2,
+          "source": "je 2 Braunüle Vasofix Safety gelb /blau /rosa /grün /grau",
+          "note": "",
+          "parent": "g8",
+          "type": "material"
+        },
+        {
+          "id": "g8i13",
+          "name": "Braunüle Vasofix Safety grün",
+          "qty": 2,
+          "source": "je 2 Braunüle Vasofix Safety gelb /blau /rosa /grün /grau",
+          "note": "",
+          "parent": "g8",
+          "type": "material"
+        },
+        {
+          "id": "g8i14",
+          "name": "Braunüle Vasofix Safety grau",
+          "qty": 2,
+          "source": "je 2 Braunüle Vasofix Safety gelb /blau /rosa /grün /grau",
+          "note": "",
+          "parent": "g8",
+          "type": "material"
+        }
+      ],
+      "type": "section",
+      "sourceLabel": "Notfallrucksack groß · V1.1 · 25.09.2023 · Seite 3"
+    },
+    {
+      "id": "g9",
+      "name": "Larynxtubus",
+      "page": 3,
+      "color": "#c47524",
+      "parent": "modultaschen",
+      "items": [
+        {
+          "id": "g9i0",
+          "name": "Larynxtubus Gr. 3",
+          "qty": 1,
+          "source": "je 1 Larynxtubus Gr. 3 / 4 / 5",
+          "note": "",
+          "parent": "g9",
+          "type": "material"
+        },
+        {
+          "id": "g9i1",
+          "name": "Larynxtubus Gr. 4",
+          "qty": 1,
+          "source": "je 1 Larynxtubus Gr. 3 / 4 / 5",
+          "note": "",
+          "parent": "g9",
+          "type": "material"
+        },
+        {
+          "id": "g9i2",
+          "name": "Larynxtubus Gr. 5",
+          "qty": 1,
+          "source": "je 1 Larynxtubus Gr. 3 / 4 / 5",
+          "note": "",
+          "parent": "g9",
+          "type": "material"
+        },
+        {
+          "id": "g9i3",
+          "name": "LT-Blockerspritze",
+          "qty": 1,
+          "source": "1 LT-Blockerspritze",
+          "note": "",
+          "parent": "g9",
+          "type": "material"
+        },
+        {
+          "id": "g9i4",
+          "name": "Aqua",
+          "qty": 2,
+          "source": "2 Aqua",
+          "note": "",
+          "parent": "g9",
+          "type": "material"
+        },
+        {
+          "id": "g9i5",
+          "name": "Gänsegurgel",
+          "qty": 1,
+          "source": "1 Gänsegurgel",
+          "note": "",
+          "parent": "g9",
+          "type": "material"
+        },
+        {
+          "id": "g9i6",
+          "name": "Thomas-Holder",
+          "qty": 1,
+          "source": "1 Thomas-Holder",
+          "note": "",
+          "parent": "g9",
+          "type": "material"
+        },
+        {
+          "id": "g9i7",
+          "name": "Cuffdruckmesser",
+          "qty": 1,
+          "source": "1 Cuffdruckmesser",
+          "note": "",
+          "parent": "g9",
+          "type": "material"
+        }
+      ],
+      "type": "section",
+      "sourceLabel": "Notfallrucksack groß · V1.1 · 25.09.2023 · Seite 3"
+    },
+    {
+      "id": "g10",
+      "name": "Beatmung",
+      "page": 3,
+      "color": "#357db2",
+      "parent": "modultaschen",
+      "items": [
+        {
+          "id": "g10i0",
+          "name": "Beatmungsbeutel Erw.",
+          "qty": 1,
+          "source": "1 Beatmungsbeutel Erw.",
+          "note": "",
+          "parent": "g10",
+          "type": "material"
+        },
+        {
+          "id": "g10i1",
+          "name": "Beatmungsmaske Gr. S",
+          "qty": 1,
+          "source": "je 1 Beatmungsmaske Gr. S / M / L",
+          "note": "",
+          "parent": "g10",
+          "type": "material"
+        },
+        {
+          "id": "g10i2",
+          "name": "Beatmungsmaske Gr. M",
+          "qty": 1,
+          "source": "je 1 Beatmungsmaske Gr. S / M / L",
+          "note": "",
+          "parent": "g10",
+          "type": "material"
+        },
+        {
+          "id": "g10i3",
+          "name": "Beatmungsmaske Gr. L",
+          "qty": 1,
+          "source": "je 1 Beatmungsmaske Gr. S / M / L",
+          "note": "",
+          "parent": "g10",
+          "type": "material"
+        },
+        {
+          "id": "g10i4",
+          "name": "O2-Reservoir",
+          "qty": 1,
+          "source": "1 O2-Reservoir",
+          "note": "",
+          "parent": "g10",
+          "type": "material"
+        },
+        {
+          "id": "g10i5",
+          "name": "Beatmungsfilter",
+          "qty": 1,
+          "source": "1 Beatmungsfilter",
+          "note": "",
+          "parent": "g10",
+          "type": "material"
+        },
+        {
+          "id": "g10i6",
+          "name": "CO2 Detector",
+          "qty": 1,
+          "source": "1 CO2 Detector",
+          "note": "",
+          "parent": "g10",
+          "type": "material"
+        }
+      ],
+      "type": "section",
+      "sourceLabel": "Notfallrucksack groß · V1.1 · 25.09.2023 · Seite 3"
+    },
+    {
+      "id": "g11",
+      "name": "Absaugung",
+      "page": 3,
+      "color": "#b79d19",
+      "parent": "modultaschen",
+      "items": [
+        {
+          "id": "g11i0",
+          "name": "Handabsaugpumpe",
+          "qty": 1,
+          "source": "1 Handabsaugpumpe",
+          "note": "",
+          "parent": "g11",
+          "type": "material"
+        },
+        {
+          "id": "g11i1",
+          "name": "Einweg-Absaugbehälter",
+          "qty": 1,
+          "source": "1 Einweg-Absaugbehälter",
+          "note": "",
+          "parent": "g11",
+          "type": "material"
+        },
+        {
+          "id": "g11i2",
+          "name": "Absaugkatheter unsteril dick",
+          "qty": 1,
+          "source": "1 Absaugkatheter unsteril dick",
+          "note": "",
+          "parent": "g11",
+          "type": "material"
+        },
+        {
+          "id": "g11i3",
+          "name": "Absaugkatheter unsteril dünn",
+          "qty": 1,
+          "source": "1 Absaugkatheter unsteril dünn",
+          "note": "",
+          "parent": "g11",
+          "type": "material"
+        },
+        {
+          "id": "g11i4",
+          "name": "Adapter für sterile Absaugkatheter",
+          "qty": 1,
+          "source": "1 Adapter für sterile Absaugkatheter",
+          "note": "",
+          "parent": "g11",
+          "type": "material"
+        },
+        {
+          "id": "g11i5",
+          "name": "Absaugkatheter Gr. CH 20/18/16",
+          "qty": 3,
+          "source": "3 Absaugkatheter Gr. CH 20/18/16",
+          "note": "Sammelposition im Original: „3 Absaugkatheter Gr. CH 20/18/16“. Keine Stückzahl je Größe angegeben.",
+          "parent": "g11",
+          "type": "material"
+        }
+      ],
+      "type": "section",
+      "sourceLabel": "Notfallrucksack groß · V1.1 · 25.09.2023 · Seite 3"
+    },
+    {
+      "id": "g12",
+      "name": "Verband",
+      "page": 3,
+      "color": "#388760",
+      "parent": "modultaschen",
+      "items": [
+        {
+          "id": "g12i0",
+          "name": "Saugkompresse",
+          "qty": 1,
+          "source": "1 Saugkompresse",
+          "note": "",
+          "parent": "g12",
+          "type": "material"
+        },
+        {
+          "id": "g12i1",
+          "name": "Aluderm Verbandtuch",
+          "qty": 1,
+          "source": "1 Aluderm Verbandtuch",
+          "note": "",
+          "parent": "g12",
+          "type": "material"
+        },
+        {
+          "id": "g12i2",
+          "name": "Mullkompressen 7,5 cm",
+          "qty": 5,
+          "source": "5 Mullkompressen 7,5 cm",
+          "note": "",
+          "parent": "g12",
+          "type": "material"
+        },
+        {
+          "id": "g12i3",
+          "name": "Dreiecktücher",
+          "qty": 3,
+          "source": "3 Dreiecktücher",
+          "note": "",
+          "parent": "g12",
+          "type": "material"
+        },
+        {
+          "id": "g12i4",
+          "name": "Verbandspäckchen mittel",
+          "qty": 2,
+          "source": "2 Verbandspäckchen mittel",
+          "note": "",
+          "parent": "g12",
+          "type": "material"
+        },
+        {
+          "id": "g12i5",
+          "name": "Mullbinden 6 cm",
+          "qty": 2,
+          "source": "2 Mullbinden 6 cm",
+          "note": "",
+          "parent": "g12",
+          "type": "material"
+        },
+        {
+          "id": "g12i6",
+          "name": "Leukosilk 2,5 cm",
+          "qty": 1,
+          "source": "1 Leukosilk 2,5 cm",
+          "note": "",
+          "parent": "g12",
+          "type": "material"
+        },
+        {
+          "id": "g12i7",
+          "name": "Kältekompresse (verpackt)",
+          "qty": 1,
+          "source": "1 Kältekompresse (verpackt)",
+          "note": "",
+          "parent": "g12",
+          "type": "material"
+        },
+        {
+          "id": "g12i8",
+          "name": "Steristripes",
+          "qty": 1,
+          "source": "1 Steristripes",
+          "note": "",
+          "parent": "g12",
+          "type": "material"
+        },
+        {
+          "id": "g12i9",
+          "name": "Octenisept Wunddesi 50ml",
+          "qty": 1,
+          "source": "1 Octenisept Wunddesi 50ml",
+          "note": "",
+          "parent": "g12",
+          "type": "material"
+        }
+      ],
+      "type": "section",
+      "sourceLabel": "Notfallrucksack groß · V1.1 · 25.09.2023 · Seite 3"
+    },
+    {
+      "id": "g13",
+      "name": "MEDIS",
+      "page": 3,
+      "color": "#7e627e",
+      "parent": "modultaschen",
+      "items": [
+        {
+          "id": "g13i0",
+          "name": "Aspirin",
+          "qty": 10,
+          "source": "10 Aspirin",
+          "note": "",
+          "parent": "g13",
+          "type": "material"
+        },
+        {
+          "id": "g13i1",
+          "name": "Dextro",
+          "qty": 1,
+          "source": "1 Dextro",
+          "note": "",
+          "parent": "g13",
+          "type": "material"
+        },
+        {
+          "id": "g13i2",
+          "name": "Edding",
+          "qty": 1,
+          "source": "1 Edding",
+          "note": "",
+          "parent": "g13",
+          "type": "material"
+        },
+        {
+          "id": "g13i3",
+          "name": "Soventol",
+          "qty": 1,
+          "source": "1 Soventol",
+          "note": "",
+          "parent": "g13",
+          "type": "material"
+        },
+        {
+          "id": "g13i4",
+          "name": "Ibuprofen",
+          "qty": 10,
+          "source": "10 Ibuprofen",
+          "note": "",
+          "parent": "g13",
+          "type": "material"
+        },
+        {
+          "id": "g13i5",
+          "name": "Octenisept Gel",
+          "qty": 1,
+          "source": "1 Octenisept Gel",
+          "note": "",
+          "parent": "g13",
+          "type": "material"
+        },
+        {
+          "id": "g13i6",
+          "name": "Paracetamol",
+          "qty": 10,
+          "source": "10 Paracetamol",
+          "note": "",
+          "parent": "g13",
+          "type": "material"
+        },
+        {
+          "id": "g13i7",
+          "name": "Voltaren Gel",
+          "qty": 1,
+          "source": "1 Voltaren Gel",
+          "note": "",
+          "parent": "g13",
+          "type": "material"
+        },
+        {
+          "id": "g13i8",
+          "name": "Holzspatel",
+          "qty": 5,
+          "source": "5 Holzspatel",
+          "note": "",
+          "parent": "g13",
+          "type": "material"
+        },
+        {
+          "id": "g13i9",
+          "name": "Bactolan",
+          "qty": 1,
+          "source": "1 Bactolan",
+          "note": "",
+          "parent": "g13",
+          "type": "material"
+        }
+      ],
+      "type": "section",
+      "sourceLabel": "Notfallrucksack groß · V1.1 · 25.09.2023 · Seite 3"
+    },
+    {
+      "id": "g14",
+      "name": "Intubationsfach oben",
+      "page": 4,
+      "color": "#557488",
+      "parent": "rucksack",
+      "items": [
+        {
+          "id": "g14i0",
+          "name": "Pneumothoraxpunktionskanüle",
+          "qty": 1,
+          "source": "1 Pneumothoraxpunktionskanüle",
+          "note": "",
+          "parent": "g14",
+          "type": "material"
+        },
+        {
+          "id": "g14i1",
+          "name": "Gänsegurgel",
+          "qty": 1,
+          "source": "1 Gänsegurgel",
+          "note": "",
+          "parent": "g14",
+          "type": "material"
+        },
+        {
+          "id": "g14i2",
+          "name": "Endotrachealtubus inkl. Führungsstab Gr. 5,5",
+          "qty": 1,
+          "source": "je 1 Endotrachealtubus inkl. Führungsstab Gr. 5,5 / 6,5 / 7,5",
+          "note": "",
+          "parent": "g14",
+          "type": "material"
+        },
+        {
+          "id": "g14i3",
+          "name": "Endotrachealtubus inkl. Führungsstab Gr. 6,5",
+          "qty": 1,
+          "source": "je 1 Endotrachealtubus inkl. Führungsstab Gr. 5,5 / 6,5 / 7,5",
+          "note": "",
+          "parent": "g14",
+          "type": "material"
+        },
+        {
+          "id": "g14i4",
+          "name": "Endotrachealtubus inkl. Führungsstab Gr. 7,5",
+          "qty": 1,
+          "source": "je 1 Endotrachealtubus inkl. Führungsstab Gr. 5,5 / 6,5 / 7,5",
+          "note": "",
+          "parent": "g14",
+          "type": "material"
+        },
+        {
+          "id": "g14i5",
+          "name": "Thomas-Holder",
+          "qty": 1,
+          "source": "1 Thomas-Holder",
+          "note": "",
+          "parent": "g14",
+          "type": "material"
+        }
+      ],
+      "type": "section",
+      "sourceLabel": "Notfallrucksack groß · V1.1 · 25.09.2023 · Seite 4"
+    },
+    {
+      "id": "g15",
+      "name": "Intubationsfach unten",
+      "page": 4,
+      "color": "#557488",
+      "parent": "rucksack",
+      "items": [
+        {
+          "id": "g15i0",
+          "name": "Magill-Zange Erw.",
+          "qty": 1,
+          "source": "1 Magill-Zange Erw.",
+          "note": "",
+          "parent": "g15",
+          "type": "material"
+        },
+        {
+          "id": "g15i1",
+          "name": "Guedeltubus Gr. 2",
+          "qty": 1,
+          "source": "je 1 Guedeltubus Gr. 2 / 3 / 4 / 5",
+          "note": "",
+          "parent": "g15",
+          "type": "material"
+        },
+        {
+          "id": "g15i2",
+          "name": "Guedeltubus Gr. 3",
+          "qty": 1,
+          "source": "je 1 Guedeltubus Gr. 2 / 3 / 4 / 5",
+          "note": "",
+          "parent": "g15",
+          "type": "material"
+        },
+        {
+          "id": "g15i3",
+          "name": "Guedeltubus Gr. 4",
+          "qty": 1,
+          "source": "je 1 Guedeltubus Gr. 2 / 3 / 4 / 5",
+          "note": "",
+          "parent": "g15",
+          "type": "material"
+        },
+        {
+          "id": "g15i4",
+          "name": "Guedeltubus Gr. 5",
+          "qty": 1,
+          "source": "je 1 Guedeltubus Gr. 2 / 3 / 4 / 5",
+          "note": "",
+          "parent": "g15",
+          "type": "material"
+        },
+        {
+          "id": "g15i5",
+          "name": "Wendeltubus Gr. 22",
+          "qty": 1,
+          "source": "je 1 Wendeltubus Gr. 22 / 28",
+          "note": "",
+          "parent": "g15",
+          "type": "material"
+        },
+        {
+          "id": "g15i6",
+          "name": "Wendeltubus Gr. 28",
+          "qty": 1,
+          "source": "je 1 Wendeltubus Gr. 22 / 28",
+          "note": "",
+          "parent": "g15",
+          "type": "material"
+        },
+        {
+          "id": "g15i7",
+          "name": "Blockerspritze 10 ml",
+          "qty": 1,
+          "source": "1 Blockerspritze 10 ml",
+          "note": "",
+          "parent": "g15",
+          "type": "material"
+        },
+        {
+          "id": "g15i8",
+          "name": "Peep-Ventil",
+          "qty": 1,
+          "source": "1 Peep-Ventil",
+          "note": "",
+          "parent": "g15",
+          "type": "material"
+        },
+        {
+          "id": "g15i9",
+          "name": "Intubationsgriff groß + Batterien",
+          "qty": 1,
+          "source": "1 Intubationsgriff groß + Batterien",
+          "note": "",
+          "parent": "g15",
+          "type": "material"
+        },
+        {
+          "id": "g15i10",
+          "name": "Intubationsspatel Gr. 2",
+          "qty": 1,
+          "source": "je 1 Intubationsspatel Gr. 2 / 3 / 4",
+          "note": "",
+          "parent": "g15",
+          "type": "material"
+        },
+        {
+          "id": "g15i11",
+          "name": "Intubationsspatel Gr. 3",
+          "qty": 1,
+          "source": "je 1 Intubationsspatel Gr. 2 / 3 / 4",
+          "note": "",
+          "parent": "g15",
+          "type": "material"
+        },
+        {
+          "id": "g15i12",
+          "name": "Intubationsspatel Gr. 4",
+          "qty": 1,
+          "source": "je 1 Intubationsspatel Gr. 2 / 3 / 4",
+          "note": "",
+          "parent": "g15",
+          "type": "material"
+        }
+      ],
+      "type": "section",
+      "sourceLabel": "Notfallrucksack groß · V1.1 · 25.09.2023 · Seite 4"
+    },
+    {
+      "id": "g16",
+      "name": "Dokumentationsfach",
+      "page": 4,
+      "color": "#557488",
+      "parent": "rucksack",
+      "items": [
+        {
+          "id": "g16i0",
+          "name": "Schreibbrett",
+          "qty": 1,
+          "source": "1 Schreibbrett",
+          "note": "",
+          "parent": "g16",
+          "type": "material"
+        },
+        {
+          "id": "g16i1",
+          "name": "Bestückungsordnung",
+          "qty": 1,
+          "source": "1 Bestückungsordnung",
+          "note": "",
+          "parent": "g16",
+          "type": "material"
+        },
+        {
+          "id": "g16i2",
+          "name": "Notfallprotokolle",
+          "qty": 2,
+          "source": "2 Notfallprotokolle",
+          "note": "",
+          "parent": "g16",
+          "type": "material"
+        },
+        {
+          "id": "g16i3",
+          "name": "Kugelschreiber",
+          "qty": 1,
+          "source": "1 Kugelschreiber",
+          "note": "",
+          "parent": "g16",
+          "type": "material"
+        }
+      ],
+      "type": "section",
+      "sourceLabel": "Notfallrucksack groß · V1.1 · 25.09.2023 · Seite 4"
+    },
+    {
+      "id": "amp",
+      "name": "Arzt-Ampullarium",
+      "page": 1,
+      "color": "#a94449",
+      "parent": "aa-nef",
+      "items": [
+        {
+          "id": "amp0",
+          "name": "Aspisol · 500 mg",
+          "qty": 1,
+          "source": "Acetylsalicylsäure | Aspisol | Trockensub. | 500 mg | 1",
+          "ingredient": "Acetylsalicylsäure",
+          "brand": "Aspisol",
+          "form": "Trockensub.",
+          "strength": "500 mg",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp1",
+          "name": "Adrekar · 6 mg / 2 ml",
+          "qty": 3,
+          "source": "Adenosin | Adrekar | Stechampulle | 6 mg / 2 ml | 3",
+          "ingredient": "Adenosin",
+          "brand": "Adrekar",
+          "form": "Stechampulle",
+          "strength": "6 mg / 2 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp2",
+          "name": "Cordarex · 150 mg / 3 ml",
+          "qty": 3,
+          "source": "Amiodaron | Cordarex | Amp. | 150 mg / 3 ml | 3",
+          "ingredient": "Amiodaron",
+          "brand": "Cordarex",
+          "form": "Amp.",
+          "strength": "150 mg / 3 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp3",
+          "name": "Aqua · 10 ml",
+          "qty": 2,
+          "source": "Aqua ad inject. | Aqua | Amp. | 10 ml | 2",
+          "ingredient": "Aqua ad inject.",
+          "brand": "Aqua",
+          "form": "Amp.",
+          "strength": "10 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp4",
+          "name": "Atropin · 0,5 mg / 1 ml",
+          "qty": 3,
+          "source": "Atropin | Atropin | Amp. | 0,5 mg / 1 ml | 3",
+          "ingredient": "Atropin",
+          "brand": "Atropin",
+          "form": "Amp.",
+          "strength": "0,5 mg / 1 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp5",
+          "name": "Buscopan · 20 mg / 1 ml",
+          "qty": 1,
+          "source": "Butylscopolamin | Buscopan | Amp. | 20 mg / 1 ml | 1",
+          "ingredient": "Butylscopolamin",
+          "brand": "Buscopan",
+          "form": "Amp.",
+          "strength": "20 mg / 1 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp6",
+          "name": "Akrinor · 200/10 mg / 2 ml",
+          "qty": 1,
+          "source": "Cafedrin/Theodren. | Akrinor | Amp. | 200/10 mg / 2 ml | 1",
+          "ingredient": "Cafedrin/Theodren.",
+          "brand": "Akrinor",
+          "form": "Amp.",
+          "strength": "200/10 mg / 2 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp7",
+          "name": "Captopril · 12,5 mg",
+          "qty": 2,
+          "source": "Captopril | Captopril | Tablette | 12,5 mg | 2",
+          "ingredient": "Captopril",
+          "brand": "Captopril",
+          "form": "Tablette",
+          "strength": "12,5 mg",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp8",
+          "name": "Diazepam · 5 mg",
+          "qty": 2,
+          "source": "Diazepam | Diazepam | Rectiole | 5 mg | 2",
+          "ingredient": "Diazepam",
+          "brand": "Diazepam",
+          "form": "Rectiole",
+          "strength": "5 mg",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp9",
+          "name": "Vomex · 62 mg / 10 ml",
+          "qty": 1,
+          "source": "Dimenhydrinat | Vomex | Amp. | 62 mg / 10 ml | 1",
+          "ingredient": "Dimenhydrinat",
+          "brand": "Vomex",
+          "form": "Amp.",
+          "strength": "62 mg / 10 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp10",
+          "name": "Histakut · 4 mg / 4ml",
+          "qty": 2,
+          "source": "Dimetindenmaleat | Histakut | Amp. | 4 mg / 4ml | 2",
+          "ingredient": "Dimetindenmaleat",
+          "brand": "Histakut",
+          "form": "Amp.",
+          "strength": "4 mg / 4ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp11",
+          "name": "Adrenalin · 1 mg / 1 ml",
+          "qty": 5,
+          "source": "Epinephrin | Adrenalin | Amp. | 1 mg / 1 ml | 5",
+          "ingredient": "Epinephrin",
+          "brand": "Adrenalin",
+          "form": "Amp.",
+          "strength": "1 mg / 1 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp13",
+          "name": "Ketanest S · 25 mg / 5 ml",
+          "qty": 2,
+          "source": "Esketamin | Ketanest S | Amp. | 25 mg / 5 ml | 2",
+          "ingredient": "Esketamin",
+          "brand": "Ketanest S",
+          "form": "Amp.",
+          "strength": "25 mg / 5 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp12",
+          "name": "Ketanest S · 50 mg / 2 ml",
+          "qty": 2,
+          "source": "Esketamin | Ketanest S | Amp. | 50 mg / 2 ml | 2",
+          "ingredient": "Esketamin",
+          "brand": "Ketanest S",
+          "form": "Amp.",
+          "strength": "50 mg / 2 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp14",
+          "name": "Partusisten · 25 µg / 1 ml",
+          "qty": 1,
+          "source": "Fenoterol | Partusisten | Amp. | 25 µg / 1 ml | 1",
+          "ingredient": "Fenoterol",
+          "brand": "Partusisten",
+          "form": "Amp.",
+          "strength": "25 µg / 1 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp15",
+          "name": "Anexate · 0,5 mg / 5 ml",
+          "qty": 1,
+          "source": "Flumazenil | Anexate | Amp. | 0,5 mg / 5 ml | 1",
+          "ingredient": "Flumazenil",
+          "brand": "Anexate",
+          "form": "Amp.",
+          "strength": "0,5 mg / 5 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp16",
+          "name": "Lasix · 40 mg / 4 ml",
+          "qty": 1,
+          "source": "Furosemid | Lasix | Amp. | 40 mg / 4 ml | 1",
+          "ingredient": "Furosemid",
+          "brand": "Lasix",
+          "form": "Amp.",
+          "strength": "40 mg / 4 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp17",
+          "name": "Glucose 40 % · 4,0 g / 10 ml",
+          "qty": 4,
+          "source": "Glucose 40% | Glucose 40 % | Amp. | 4,0 g / 10 ml | 4",
+          "ingredient": "Glucose 40%",
+          "brand": "Glucose 40 %",
+          "form": "Amp.",
+          "strength": "4,0 g / 10 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp18",
+          "name": "Nitro-Spray · 0,4 mg pro Hub",
+          "qty": 1,
+          "source": "Glycerolnitrat | Nitro-Spray | Spray | 0,4 mg pro Hub | 1",
+          "ingredient": "Glycerolnitrat",
+          "brand": "Nitro-Spray",
+          "form": "Spray",
+          "strength": "0,4 mg pro Hub",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp19",
+          "name": "Haldol · 5 mg / 1 ml",
+          "qty": 1,
+          "source": "Haloperidol | Haldol | Amp. | 5 mg / 1 ml | 1",
+          "ingredient": "Haloperidol",
+          "brand": "Haldol",
+          "form": "Amp.",
+          "strength": "5 mg / 1 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp20",
+          "name": "Heparin · 25.000 IE / 5 ml",
+          "qty": 2,
+          "source": "Heparin | Heparin | Amp. | 25.000 IE / 5 ml | 2",
+          "ingredient": "Heparin",
+          "brand": "Heparin",
+          "form": "Amp.",
+          "strength": "25.000 IE / 5 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp21",
+          "name": "Atrovent · 500 µg / 2 ml",
+          "qty": 2,
+          "source": "Ipratropiumbromid | Atrovent | Inhalationslös. | 500 µg / 2 ml | 2",
+          "ingredient": "Ipratropiumbromid",
+          "brand": "Atrovent",
+          "form": "Inhalationslös.",
+          "strength": "500 µg / 2 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp22",
+          "name": "Keppra · 500 mg / 5 ml",
+          "qty": 3,
+          "source": "Levetiracetam | Keppra | Amp. | 500 mg / 5 ml | 3",
+          "ingredient": "Levetiracetam",
+          "brand": "Keppra",
+          "form": "Amp.",
+          "strength": "500 mg / 5 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp23",
+          "name": "Xylocain · 100 mg / 5 ml",
+          "qty": 2,
+          "source": "Lidocain 2% | Xylocain | Amp. | 100 mg / 5 ml | 2",
+          "ingredient": "Lidocain 2%",
+          "brand": "Xylocain",
+          "form": "Amp.",
+          "strength": "100 mg / 5 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp24",
+          "name": "Tavor · 1 mg",
+          "qty": 2,
+          "source": "Lorazepam | Tavor | Tablette subl. | 1 mg | 2",
+          "ingredient": "Lorazepam",
+          "brand": "Tavor",
+          "form": "Tablette subl.",
+          "strength": "1 mg",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp25",
+          "name": "Magnesium · 2,0 g / 10 ml",
+          "qty": 2,
+          "source": "Magnesiumsulf. 20% | Magnesium | Amp. | 2,0 g / 10 ml | 2",
+          "ingredient": "Magnesiumsulf. 20%",
+          "brand": "Magnesium",
+          "form": "Amp.",
+          "strength": "2,0 g / 10 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp26",
+          "name": "Novalgin · 1,0 g / 2 ml",
+          "qty": 2,
+          "source": "Metamizol | Novalgin | Amp. | 1,0 g / 2 ml | 2",
+          "ingredient": "Metamizol",
+          "brand": "Novalgin",
+          "form": "Amp.",
+          "strength": "1,0 g / 2 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp27",
+          "name": "Beloc · 5 mg / 5 ml",
+          "qty": 1,
+          "source": "Metoprolol | Beloc | Amp. | 5 mg / 5 ml | 1",
+          "ingredient": "Metoprolol",
+          "brand": "Beloc",
+          "form": "Amp.",
+          "strength": "5 mg / 5 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp29",
+          "name": "Dormicum · 15 mg / 3 ml",
+          "qty": 1,
+          "source": "Midazolam | Dormicum | Amp. | 15 mg / 3 ml | 1",
+          "ingredient": "Midazolam",
+          "brand": "Dormicum",
+          "form": "Amp.",
+          "strength": "15 mg / 3 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp28",
+          "name": "Dormicum · 5 mg / 5 ml",
+          "qty": 4,
+          "source": "Midazolam | Dormicum | Amp. | 5 mg / 5 ml | 4",
+          "ingredient": "Midazolam",
+          "brand": "Dormicum",
+          "form": "Amp.",
+          "strength": "5 mg / 5 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp30",
+          "name": "NaCl 0,9 % · 10 ml",
+          "qty": 8,
+          "source": "NaCl 0,9 % | NaCl 0,9 % | Amp. | 10 ml | 8",
+          "ingredient": "NaCl 0,9 %",
+          "brand": "NaCl 0,9 %",
+          "form": "Amp.",
+          "strength": "10 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp31",
+          "name": "Naloxon · 0,4 ml / 1 ml",
+          "qty": 3,
+          "source": "Naloxon | Naloxon | Amp. | 0,4 ml / 1 ml | 3",
+          "ingredient": "Naloxon",
+          "brand": "Naloxon",
+          "form": "Amp.",
+          "strength": "0,4 ml / 1 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp32",
+          "name": "Nyxoid · 1,8 mg",
+          "qty": 2,
+          "source": "Naloxon | Nyxoid | Einzeldosis | 1,8 mg | 2",
+          "ingredient": "Naloxon",
+          "brand": "Nyxoid",
+          "form": "Einzeldosis",
+          "strength": "1,8 mg",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp33",
+          "name": "Sinora · 10 mg / 10 ml",
+          "qty": 1,
+          "source": "Norepinephrin | Sinora | Amp. | 10 mg / 10 ml | 1",
+          "ingredient": "Norepinephrin",
+          "brand": "Sinora",
+          "form": "Amp.",
+          "strength": "10 mg / 10 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp34",
+          "name": "Ondansetron · 4 mg / 2 ml",
+          "qty": 2,
+          "source": "Ondansetron | Ondansetron | Amp. | 4 mg / 2 ml | 2",
+          "ingredient": "Ondansetron",
+          "brand": "Ondansetron",
+          "form": "Amp.",
+          "strength": "4 mg / 2 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp36",
+          "name": "Paracetamol · 125 mg",
+          "qty": 2,
+          "source": "Paracetamol | Paracetamol | Suppositorium | 75/125/250/500 mg | je 2",
+          "ingredient": "Paracetamol",
+          "brand": "Paracetamol",
+          "form": "Suppositorium",
+          "strength": "125 mg",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp37",
+          "name": "Paracetamol · 250 mg",
+          "qty": 2,
+          "source": "Paracetamol | Paracetamol | Suppositorium | 75/125/250/500 mg | je 2",
+          "ingredient": "Paracetamol",
+          "brand": "Paracetamol",
+          "form": "Suppositorium",
+          "strength": "250 mg",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp38",
+          "name": "Paracetamol · 500 mg",
+          "qty": 2,
+          "source": "Paracetamol | Paracetamol | Suppositorium | 75/125/250/500 mg | je 2",
+          "ingredient": "Paracetamol",
+          "brand": "Paracetamol",
+          "form": "Suppositorium",
+          "strength": "500 mg",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp35",
+          "name": "Paracetamol · 75 mg",
+          "qty": 2,
+          "source": "Paracetamol | Paracetamol | Suppositorium | 75/125/250/500 mg | je 2",
+          "ingredient": "Paracetamol",
+          "brand": "Paracetamol",
+          "form": "Suppositorium",
+          "strength": "75 mg",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp39",
+          "name": "Solu-Decortin · 250 mg",
+          "qty": 2,
+          "source": "Prednisolon | Solu-Decortin | Trockensub. | 250 mg | 2",
+          "ingredient": "Prednisolon",
+          "brand": "Solu-Decortin",
+          "form": "Trockensub.",
+          "strength": "250 mg",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp40",
+          "name": "Rectodelt · 100 mg",
+          "qty": 1,
+          "source": "Prednison | Rectodelt | Suppositorium | 100 mg | 1",
+          "ingredient": "Prednison",
+          "brand": "Rectodelt",
+          "form": "Suppositorium",
+          "strength": "100 mg",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp41",
+          "name": "Propofol 1 % · 200 mg / 20 ml",
+          "qty": 2,
+          "source": "Propofol 1% | Propofol 1 % | Amp. | 200 mg / 20 ml | 2",
+          "ingredient": "Propofol 1%",
+          "brand": "Propofol 1 %",
+          "form": "Amp.",
+          "strength": "200 mg / 20 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp42",
+          "name": "Bronchospasmin · 90 µg / 1 ml",
+          "qty": 1,
+          "source": "Reproterol | Bronchospasmin | Amp. | 90 µg / 1 ml | 1",
+          "ingredient": "Reproterol",
+          "brand": "Bronchospasmin",
+          "form": "Amp.",
+          "strength": "90 µg / 1 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp43",
+          "name": "Rocuronium · 50 mg / 5 ml",
+          "qty": 3,
+          "source": "Rocuronium | Rocuronium | Amp. | 50 mg / 5 ml | 3",
+          "ingredient": "Rocuronium",
+          "brand": "Rocuronium",
+          "form": "Amp.",
+          "strength": "50 mg / 5 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp44",
+          "name": "Sultanol · 1,25 mg / 2,5 ml",
+          "qty": 2,
+          "source": "Salbutamol | Sultanol | Inhalationslös. | 1,25 mg / 2,5 ml | 2",
+          "ingredient": "Salbutamol",
+          "brand": "Sultanol",
+          "form": "Inhalationslös.",
+          "strength": "1,25 mg / 2,5 ml",
+          "note": "",
+          "alternatives": [
+            {
+              "page": 1,
+              "qty": 2
+            },
+            {
+              "page": 2,
+              "qty": 4
+            }
+          ],
+          "userOverride": true,
+          "decision": "Soll 2 durch Nutzer festgelegt",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp45",
+          "name": "Vitamin B1 · 100 mg / 2 ml",
+          "qty": 1,
+          "source": "Thiamin | Vitamin B1 | Amp. | 100 mg / 2 ml | 1",
+          "ingredient": "Thiamin",
+          "brand": "Vitamin B1",
+          "form": "Amp.",
+          "strength": "100 mg / 2 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp46",
+          "name": "Trapanal · 500 mg",
+          "qty": 1,
+          "source": "Thiopental | Trapanal | Trockensub. | 500 mg | 1",
+          "ingredient": "Thiopental",
+          "brand": "Trapanal",
+          "form": "Trockensub.",
+          "strength": "500 mg",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp47",
+          "name": "Tranexamsäure · 500 mg / 5 ml",
+          "qty": 2,
+          "source": "Tranexamsäure | Tranexamsäure | Amp. | 500 mg / 5 ml | 2",
+          "ingredient": "Tranexamsäure",
+          "brand": "Tranexamsäure",
+          "form": "Amp.",
+          "strength": "500 mg / 5 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        },
+        {
+          "id": "amp48",
+          "name": "Ebrantil · 50 mg / 10 ml",
+          "qty": 1,
+          "source": "Urapidil | Ebrantil | Amp. | 50 mg / 10 ml | 1",
+          "ingredient": "Urapidil",
+          "brand": "Ebrantil",
+          "form": "Amp.",
+          "strength": "50 mg / 10 ml",
+          "note": "",
+          "parent": "amp",
+          "type": "material"
+        }
+      ],
+      "document": "amp",
+      "type": "object",
+      "selectable": true,
+      "description": "Medikamente und zusätzliches Material",
+      "sourceLabel": "Arzt-Ampullarium · V2.1 · 12.01.2026 · Seiten 1–2"
+    },
+    {
+      "id": "g18",
+      "name": "Zusätzliches Material",
+      "page": 1,
+      "color": "#557488",
+      "parent": "amp",
+      "items": [
+        {
+          "id": "g18i0",
+          "name": "Spritzen 2ml",
+          "qty": 3,
+          "source": "Zusätzlich Spritzen in Größe: 3x 2ml / 3x 5ml / 2x 10ml / 1x 20ml / 1x Luer-Lock inkl. MAD, 6 Aufziehkanülen (rot)",
+          "note": "",
+          "parent": "g18",
+          "type": "material"
+        },
+        {
+          "id": "g18i1",
+          "name": "Spritzen 5ml",
+          "qty": 3,
+          "source": "Zusätzlich Spritzen in Größe: 3x 2ml / 3x 5ml / 2x 10ml / 1x 20ml / 1x Luer-Lock inkl. MAD, 6 Aufziehkanülen (rot)",
+          "note": "",
+          "parent": "g18",
+          "type": "material"
+        },
+        {
+          "id": "g18i2",
+          "name": "Spritzen 10ml",
+          "qty": 2,
+          "source": "Zusätzlich Spritzen in Größe: 3x 2ml / 3x 5ml / 2x 10ml / 1x 20ml / 1x Luer-Lock inkl. MAD, 6 Aufziehkanülen (rot)",
+          "note": "",
+          "parent": "g18",
+          "type": "material"
+        },
+        {
+          "id": "g18i3",
+          "name": "Spritzen 20ml",
+          "qty": 1,
+          "source": "Zusätzlich Spritzen in Größe: 3x 2ml / 3x 5ml / 2x 10ml / 1x 20ml / 1x Luer-Lock inkl. MAD, 6 Aufziehkanülen (rot)",
+          "note": "",
+          "parent": "g18",
+          "type": "material"
+        },
+        {
+          "id": "g18i4",
+          "name": "Luer-Lock inkl. MAD",
+          "qty": 1,
+          "source": "Zusätzlich Spritzen in Größe: 3x 2ml / 3x 5ml / 2x 10ml / 1x 20ml / 1x Luer-Lock inkl. MAD, 6 Aufziehkanülen (rot)",
+          "note": "",
+          "parent": "g18",
+          "type": "material"
+        },
+        {
+          "id": "g18i5",
+          "name": "Aufziehkanülen (rot)",
+          "qty": 6,
+          "source": "Zusätzlich Spritzen in Größe: 3x 2ml / 3x 5ml / 2x 10ml / 1x 20ml / 1x Luer-Lock inkl. MAD, 6 Aufziehkanülen (rot)",
+          "note": "",
+          "parent": "g18",
+          "type": "material"
+        }
+      ],
+      "document": "amp",
+      "type": "section",
+      "sourceLabel": "Notfallrucksack groß · V1.1 · 25.09.2023 · Seite 1"
+    },
+    {
+      "id": "mpg-geraete",
+      "name": "MPG/Sonstiges",
+      "parent": "mpg",
+      "page": null,
+      "document": "mpg",
+      "items": [
+        {
+          "id": "mpg-lp15",
+          "name": "LP 15",
+          "qty": 1
+        },
+        {
+          "id": "mpg-medumat-standard",
+          "name": "Medumat Standard",
+          "qty": 1
+        },
+        {
+          "id": "mpg-accuvac-lite",
+          "name": "Accuvac Lite",
+          "qty": 1
+        },
+        {
+          "id": "mpg-lucas-2-3",
+          "name": "LUCAS 2/3",
+          "qty": 1
+        },
+        {
+          "id": "mpg-btm-box",
+          "name": "BTM-Box",
+          "qty": 1,
+          "note": "Bestand in Bemerkung eintragen"
+        },
+        {
+          "id": "mpg-kindernotfalltasche",
+          "name": "Kindernotfalltasche",
+          "qty": 1
+        }
+      ],
+      "sourceLabel": "MPG/Sonstiges"
+    }
+  ]
+}
