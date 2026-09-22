@@ -1,0 +1,618 @@
+{
+  "version": 9,
+  "id": "san-rucksack-kv",
+  "name": "SAN-Rucksack KV",
+  "containers": [
+    {
+      "id": "san-rucksack-kv",
+      "name": "SAN-Rucksack KV",
+      "type": "vehicle",
+      "parent": null
+    }
+  ],
+  "groups": [
+    {
+      "id": "san-deckel-aussen",
+      "name": "Deckel (außen)",
+      "page": 1,
+      "color": "#64748b",
+      "parent": "san-rucksack-kv",
+      "document": "san",
+      "items": [
+        {
+          "id": "san-deckel-aussen-1",
+          "name": "Absaugpumpenset und Zubehör (Griff Mehrweg, Rest Einweg)",
+          "qty": 1,
+          "unit": "SET"
+        },
+        {
+          "id": "san-deckel-aussen-2",
+          "name": "Blutdruckmessgerät für Erwachsene, Klettverschluß, mit Etui",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-deckel-aussen-3",
+          "name": "Blutdruckmessgerät für Kinder, Klettverschluß, mit Etui",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-deckel-aussen-4",
+          "name": "Blutzuckertestgerät Alphacheck",
+          "qty": 1,
+          "unit": "SET"
+        },
+        {
+          "id": "san-deckel-aussen-5",
+          "name": "Blutzuckertest-Streifen für Alphacheck",
+          "qty": 5,
+          "unit": "STK"
+        },
+        {
+          "id": "san-deckel-aussen-6",
+          "name": "Regenponcho (Einheitsgröße)",
+          "qty": 2,
+          "unit": "STK"
+        },
+        {
+          "id": "san-deckel-aussen-7",
+          "name": "Kältekompresse (Einmalartikel) 15 x 17 cm (in Abfallbeutel Auslaufgefahr!)",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-deckel-aussen-8",
+          "name": "Pulsoxy mit Sensor in Tasche (versch. Hersteller)",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-deckel-aussen-9",
+          "name": "Sicherheitslanzetten tiefenverstellbar",
+          "qty": 5,
+          "unit": "STK"
+        },
+        {
+          "id": "san-deckel-aussen-10",
+          "name": "SicSac Beutel",
+          "qty": 5,
+          "unit": "STK"
+        },
+        {
+          "id": "san-deckel-aussen-11",
+          "name": "Stethoskop Doppelkopf",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-deckel-aussen-12",
+          "name": "Universalschiene (Sam-Splint)",
+          "qty": 1,
+          "unit": "STK"
+        }
+      ],
+      "sourceLabel": "SAN-Rucksack PAX · V1.7 · 26.07.2025 · Seite 1"
+    },
+    {
+      "id": "san-deckel-innen",
+      "name": "Deckel (innen)",
+      "page": 1,
+      "color": "#64748b",
+      "parent": "san-rucksack-kv",
+      "document": "san",
+      "items": [
+        {
+          "id": "san-deckel-innen-1",
+          "name": "Bestückungsliste",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-deckel-innen-2",
+          "name": "Dokumentationsbogen f. SAN-Dienst",
+          "qty": 5,
+          "unit": "STK"
+        },
+        {
+          "id": "san-deckel-innen-3",
+          "name": "Kugelschreiber",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-deckel-innen-4",
+          "name": "Schreibklemmbrett DIN A4",
+          "qty": 1,
+          "unit": "STK"
+        }
+      ],
+      "sourceLabel": "SAN-Rucksack PAX · V1.7 · 26.07.2025 · Seite 1"
+    },
+    {
+      "id": "san-innenfach",
+      "name": "Innenfach",
+      "page": 1,
+      "color": "#64748b",
+      "parent": "san-rucksack-kv",
+      "document": "san",
+      "items": [
+        {
+          "id": "san-innenfach-1",
+          "name": "Abfallbeutel klein (grau)",
+          "qty": 3,
+          "unit": "BTL"
+        },
+        {
+          "id": "san-innenfach-2",
+          "name": "Abwurfbehälter klein, 200ml",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-innenfach-3",
+          "name": "Beatmungsbeutel Ambu Einwegset",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-innenfach-4",
+          "name": "Handdesinfektionsmittel Sterilium-Med 100 ml (Kittelflasche)",
+          "qty": 1,
+          "unit": "FL"
+        },
+        {
+          "id": "san-innenfach-5",
+          "name": "Handschuhe, unsteril, Größe L",
+          "qty": 6,
+          "unit": "PAAR"
+        },
+        {
+          "id": "san-innenfach-6",
+          "name": "Handschuhe, unsteril, Größe M",
+          "qty": 4,
+          "unit": "PAAR"
+        },
+        {
+          "id": "san-innenfach-7",
+          "name": "Handschuhe, unsteril, Größe S",
+          "qty": 2,
+          "unit": "PAAR"
+        },
+        {
+          "id": "san-innenfach-8",
+          "name": "Handschuhe, unsteril, Größe XL",
+          "qty": 2,
+          "unit": "PAAR"
+        },
+        {
+          "id": "san-innenfach-9",
+          "name": "Stifneck Select Immobilisations-Kragen f. Erwachsene",
+          "qty": 1,
+          "unit": "STK"
+        }
+      ],
+      "sourceLabel": "SAN-Rucksack PAX · V1.7 · 26.07.2025 · Seite 1"
+    },
+    {
+      "id": "san-starke-blutung",
+      "name": "Modul starke Blutung (grün/gelb/blau)",
+      "page": 1,
+      "color": "linear-gradient(90deg,#388760 0 33.33%,#b79d19 33.33% 66.66%,#357db2 66.66% 100%)",
+      "parent": "san-rucksack-kv",
+      "document": "san",
+      "items": [
+        {
+          "id": "san-starke-blutung-1",
+          "name": "Notfall-Bandages 15 cm x 4,5 cm (Druckverband)",
+          "qty": 2,
+          "unit": "STK"
+        },
+        {
+          "id": "san-starke-blutung-2",
+          "name": "Tornique",
+          "qty": 2,
+          "unit": "STK"
+        }
+      ],
+      "sourceLabel": "SAN-Rucksack PAX · V1.7 · 26.07.2025 · Seite 1"
+    },
+    {
+      "id": "san-verband",
+      "name": "Modul Verband (rot)",
+      "page": 1,
+      "color": "#b84449",
+      "parent": "san-rucksack-kv",
+      "document": "san",
+      "items": [
+        {
+          "id": "san-verband-1",
+          "name": "Alu-Verbandtuch 60x80cm",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-verband-2",
+          "name": "Dreieckstücher weiß (Vlies)",
+          "qty": 3,
+          "unit": "STK"
+        },
+        {
+          "id": "san-verband-3",
+          "name": "Elastische Binde (Ideal Binde)",
+          "qty": 2,
+          "unit": "STK"
+        },
+        {
+          "id": "san-verband-4",
+          "name": "Kleiderschere",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-verband-5",
+          "name": "Kompressen, steril, 7,5 cm x 7,5 cm",
+          "qty": 10,
+          "unit": "STK"
+        },
+        {
+          "id": "san-verband-6",
+          "name": "Leukoplast hospital 2,50 cm x 9,2m",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-verband-7",
+          "name": "Mullbinde elastisch",
+          "qty": 4,
+          "unit": "STK"
+        },
+        {
+          "id": "san-verband-8",
+          "name": "OB Tampon",
+          "qty": 2,
+          "unit": "STK"
+        },
+        {
+          "id": "san-verband-9",
+          "name": "Pinzetten anatomisch, Plastik, steril (Einmalartikel)",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-verband-10",
+          "name": "Rasierer (Einmalartikel)",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-verband-11",
+          "name": "Rettungsdecke gold/silber 160 x 220 cm",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-verband-12",
+          "name": "Verbandpäckchen mittel",
+          "qty": 5,
+          "unit": "STK"
+        },
+        {
+          "id": "san-verband-13",
+          "name": "Wunddesinfektionsmittel Octenisept 50ml",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-verband-14",
+          "name": "Wundschnellverband 1m x 6cm",
+          "qty": 1,
+          "unit": "PG"
+        }
+      ],
+      "sourceLabel": "SAN-Rucksack PAX · V1.7 · 26.07.2025 · Seite 1"
+    },
+    {
+      "id": "san-beatmung",
+      "name": "Modul Beatmung (blau)",
+      "page": 2,
+      "color": "#357db2",
+      "parent": "san-rucksack-kv",
+      "document": "san",
+      "items": [
+        {
+          "id": "san-beatmung-1",
+          "name": "50 ml Spritze (blocken Larynxmaske)",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-beatmung-2",
+          "name": "Beatmungsfilter",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-beatmung-3",
+          "name": "Gänsegurgel",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-beatmung-4",
+          "name": "Guedelttubus Gr. 3 (Einmalartikel)",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-beatmung-5",
+          "name": "Guedeltubus Gr. 4 (Einmalartikel)",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-beatmung-6",
+          "name": "Guedeltubus Gr. 5 (Einmalartikel)",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-beatmung-7",
+          "name": "Larynx Maske Notfall-Set mit 1x LM # 3/4/5",
+          "qty": 1,
+          "unit": "SET"
+        },
+        {
+          "id": "san-beatmung-8",
+          "name": "Magensonde CH 14",
+          "qty": 2,
+          "unit": "STK"
+        },
+        {
+          "id": "san-beatmung-9",
+          "name": "Sekretbeutel",
+          "qty": 2,
+          "unit": "STK"
+        },
+        {
+          "id": "san-beatmung-10",
+          "name": "Optilube Gleitgel (Befeuchtung Larynxmaske)",
+          "qty": 2,
+          "unit": "STK"
+        },
+        {
+          "id": "san-beatmung-11",
+          "name": "Thomas Holder select (Fixierung Tubus)",
+          "qty": 1,
+          "unit": "STK"
+        }
+      ],
+      "sourceLabel": "SAN-Rucksack PAX · V1.7 · 26.07.2025 · Seite 2"
+    },
+    {
+      "id": "san-infusion",
+      "name": "Modul Infusion (orange)",
+      "page": 2,
+      "color": "#c47524",
+      "parent": "san-rucksack-kv",
+      "document": "san",
+      "items": [
+        {
+          "id": "san-infusion-1",
+          "name": "Leukoplast hospital 2,5 cm x 9,2m",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-infusion-2",
+          "name": "Braunüle Vasofix Safety 16 G / Gr. 1,7 grau",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-infusion-3",
+          "name": "Braunüle Vasofix Safety 18 G / Gr. 1,3 grün",
+          "qty": 3,
+          "unit": "STK"
+        },
+        {
+          "id": "san-infusion-4",
+          "name": "Braunüle Vasofix Safety 20 G / Gr. 1,1 rosa",
+          "qty": 2,
+          "unit": "STK"
+        },
+        {
+          "id": "san-infusion-5",
+          "name": "Braunüle Vasofix Safety 22 G / Gr. 0,9 blau",
+          "qty": 2,
+          "unit": "STK"
+        },
+        {
+          "id": "san-infusion-6",
+          "name": "Glucose Infusion 40 % / 10 ml",
+          "qty": 3,
+          "unit": "STK"
+        },
+        {
+          "id": "san-infusion-7",
+          "name": "Hautdesinfektionsmittel Cutasept 50ml",
+          "qty": 1,
+          "unit": "FL"
+        },
+        {
+          "id": "san-infusion-8",
+          "name": "Infusionspflaster weiß 53 x 70 mm (Viggo Pflaster)",
+          "qty": 3,
+          "unit": "STK"
+        },
+        {
+          "id": "san-infusion-9",
+          "name": "Infusionssystem",
+          "qty": 3,
+          "unit": "STK"
+        },
+        {
+          "id": "san-infusion-10",
+          "name": "Kompressen, steril, 7,5 cm x 7,5 cm",
+          "qty": 5,
+          "unit": "STK"
+        },
+        {
+          "id": "san-infusion-11",
+          "name": "Ringer Infusion DAB 7 - 500ml (Flexbeutel)",
+          "qty": 2,
+          "unit": "BTL"
+        },
+        {
+          "id": "san-infusion-12",
+          "name": "Stauschlauch",
+          "qty": 1,
+          "unit": "STK"
+        }
+      ],
+      "sourceLabel": "SAN-Rucksack PAX · V1.7 · 26.07.2025 · Seite 2"
+    },
+    {
+      "id": "san-medis",
+      "name": "Modul Medikamente/Diagnostik (lila/grün)",
+      "page": 2,
+      "color": "linear-gradient(90deg,#7656a6 0 50%,#388760 50% 100%)",
+      "parent": "san-rucksack-kv",
+      "document": "san",
+      "items": [
+        {
+          "id": "san-medis-1",
+          "name": "Voltaren Salbe 100g",
+          "qty": 1,
+          "unit": "PG"
+        },
+        {
+          "id": "san-medis-2",
+          "name": "Aspirin Tabletten",
+          "qty": 10,
+          "unit": "STK"
+        },
+        {
+          "id": "san-medis-3",
+          "name": "Aufkleber Anbruch Medikamente",
+          "qty": 1,
+          "unit": "Satz"
+        },
+        {
+          "id": "san-medis-4",
+          "name": "Jubin Traubenzucker (Dextro Energy Ersatz)",
+          "qty": 1,
+          "unit": "PG"
+        },
+        {
+          "id": "san-medis-5",
+          "name": "Edding 30 - Permanentmarker, wasserfest, schwarz, Rundspitze, 1,5-3mm",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-medis-6",
+          "name": "Handcreme Baktolan protect 100ml",
+          "qty": 1,
+          "unit": "PG"
+        },
+        {
+          "id": "san-medis-7",
+          "name": "Ibuprofen Filmtabletten 400 mg",
+          "qty": 10,
+          "unit": "STK"
+        },
+        {
+          "id": "san-medis-8",
+          "name": "Octeniseptgel",
+          "qty": 1,
+          "unit": "PG"
+        },
+        {
+          "id": "san-medis-9",
+          "name": "Paracetamol 500 mg Tabletten",
+          "qty": 10,
+          "unit": "STK"
+        },
+        {
+          "id": "san-medis-10",
+          "name": "Pupillenleuchte inkl. Batterien",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-medis-11",
+          "name": "Salbutamol Fertiginhalat 2,5ml",
+          "qty": 3,
+          "unit": "STK"
+        },
+        {
+          "id": "san-medis-12",
+          "name": "Soventol HC 20",
+          "qty": 1,
+          "unit": "PG"
+        },
+        {
+          "id": "san-medis-13",
+          "name": "Thermometer, digital",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-medis-14",
+          "name": "Thermometerhüllen ohne Gleitmittel",
+          "qty": 5,
+          "unit": "STK"
+        }
+      ],
+      "sourceLabel": "SAN-Rucksack PAX · V1.7 · 26.07.2025 · Seite 2"
+    },
+    {
+      "id": "san-injektion",
+      "name": "Modul Injektion (gelb)",
+      "page": 2,
+      "color": "#b79d19",
+      "parent": "san-rucksack-kv",
+      "document": "san",
+      "items": [
+        {
+          "id": "san-injektion-1",
+          "name": "Epinephrin 1mg/ml (Ersatz Adrenalin 1:1000)",
+          "qty": 5,
+          "unit": "STK"
+        },
+        {
+          "id": "san-injektion-2",
+          "name": "Blunt Fil Needle - Stumpfe Aufziehkanüle18 G",
+          "qty": 6,
+          "unit": "STK"
+        },
+        {
+          "id": "san-injektion-3",
+          "name": "Einmalkanüle Gr. 12, schwarz",
+          "qty": 1,
+          "unit": "STK"
+        },
+        {
+          "id": "san-injektion-4",
+          "name": "Spritze 1ml",
+          "qty": 2,
+          "unit": "STK"
+        },
+        {
+          "id": "san-injektion-5",
+          "name": "Spritze 2ml",
+          "qty": 2,
+          "unit": "STK"
+        },
+        {
+          "id": "san-injektion-6",
+          "name": "Spritze 5ml",
+          "qty": 2,
+          "unit": "STK"
+        }
+      ],
+      "sourceLabel": "SAN-Rucksack PAX · V1.7 · 26.07.2025 · Seite 2"
+    }
+  ]
+}
